@@ -49,7 +49,7 @@ const NavBar = () => {
           <div
             className={
               enable
-                ? "features absolute pb-10 left-[-34px] items-center space-y-4  w-screen justify-center h-fit  bg-gray-500 text-white flex flex-col inset-0   -translate-x-196  "
+                ? "features absolute pb-10 left-[-34px] items-center space-y-4  w-screen justify-center h-fit  bg-gray-500 text-white flex flex-col inset-0 transition-all  -translate-x-196  "
                 : "features absolute lg:static w-fit lg:w-auto bg-gray-200 lg:bg-white inset-0 lg:flex lg:mx-4  lg:space-x-4  -translate-x-96 lg:translate-x-0 lg:justify-center lg:p-[1rem] "
             }
           >

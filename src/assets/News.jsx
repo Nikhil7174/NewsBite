@@ -91,7 +91,7 @@ const News = (props) => {
         dataLength={articles.length}
         next={fetchMoreData}
         // hasMore={articles.length !== totalResults}
-        hasMore={articles.length < totalResults}
+        hasMore={articles.length < totalResults} //changes in fetch(api has only 20 original news)
         loader={<Spinner />}
       >
         <div className="row columns-3 m-1 flex flex-row flex-wrap justify-center w-auto md:space-x-5">
@@ -127,7 +127,7 @@ const News = (props) => {
 
 News.defaultProps = {
   country: "in",
-  pageSize: 8,
+  // pageSize: 9,
   category: "general",
 };
 
